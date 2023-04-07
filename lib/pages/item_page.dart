@@ -1,8 +1,8 @@
-import 'package:belanja/widgets/buttom.dart';
-import 'package:belanja/widgets/text.dart';
 import 'package:flutter/material.dart';
 
 import '../models/item.dart';
+import '../widgets/buttom.dart';
+import '../widgets/text.dart';
 
 class ItemPage extends StatelessWidget {
   const ItemPage({super.key});
@@ -13,25 +13,20 @@ class ItemPage extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Detail Barang'),
+        title: const Text('DETAIL MAKANAN'),
       ),
       body: Container(
         margin: const EdgeInsets.only(top: 10),
         child: Column(
           children: <Widget>[
-            MyText(nama: 'Nama  : ${itemArgs.name}'),
-            MyText(nama: 'Merk  : ${itemArgs.merek}'),
-            MyText(nama: 'Stok  : ${itemArgs.stok}'),
-            MyText(nama: 'Harga : Rp. ${itemArgs.price}'),
-            MyText(nama: 'Ket   : ${itemArgs.ket}'),
+            MyText(nama: 'Nama  : ${itemArgs.nama}'),
+            MyText(nama: 'Lokasi  : ${itemArgs.lokasi}'),
+            MyText(nama: 'Kategori  : ${itemArgs.kategori}'),
+            MyText(nama: 'Harga : Rp. ${itemArgs.harga}'),
+            MyText(nama: 'Deskripsi   : ${itemArgs.deskripsi}'),
           ],
         ),
       ),
-      bottomNavigationBar: const BottomAppBar(
-          padding: EdgeInsets.all(15),
-          color: Colors.blue,
-          child: MyButtom(
-              text1: 'Daftar Barang', text2: 'Eka Yulianita Widyanti')),
     );
   }
 }

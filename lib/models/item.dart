@@ -1,14 +1,14 @@
 class Item {
-  String name;
-  String merek;
-  int stok;
-  int price;
-  String ket;
+  String nama;
+  String lokasi;
+  String kategori;
+  int harga;
+  String deskripsi;
 
   Item(
-      {required this.name,
-      required this.merek,
-      required this.stok,
-      required this.price,
-      required this.ket});
+      {required this.nama,
+      required this.lokasi,
+      required this.kategori,
+      required this.harga,
+      required this.deskripsi});
 }
