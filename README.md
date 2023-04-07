@@ -1,12 +1,9 @@
-# belanja
-
 A new Flutter project.
 
 ## Getting Started
-Tampilan Awal
-![awal](image/awal.png)
-Tampilan Detail
-![detail](image/detail.png)
+
+![image](https://user-images.githubusercontent.com/92065809/230643097-02809cca-77d2-4182-8f12-7b91e0f40837.png)
+![image](https://user-images.githubusercontent.com/92065809/230643131-6deb72f1-a5a0-4d98-851a-9286010baf8f.png)
 
 This project is a starting point for a Flutter application.
 
